@@ -3,7 +3,7 @@ import manageLogo from "./assets/images/manage.svg";
 import accountLogo from "./assets/images/account.svg";
 import myHomeLogo from "./assets/images/myhome.svg";
 import loopStudiosLogo from "./assets/images/loop-studios.svg";
-import faceItLogo from "./assets/images/FaceIt.svg";
+import faceItLogo from "./assets/images/faceit.svg";
 import shortlyLogo from "./assets/images/shortly.svg";
 import insureLogo from "./assets/images/insure.svg";
 import eyeCamCoLogo from "./assets/images/eyecam-co.svg";
