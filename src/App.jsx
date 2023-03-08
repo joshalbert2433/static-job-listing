@@ -14,8 +14,6 @@ function App() {
 		localStorage.setItem("filteredItems", JSON.stringify(filteredItems));
 	}, [filteredItems]);
 
-	console.log(filteredItems);
-
 	return (
 		<div>
 			<Header />
