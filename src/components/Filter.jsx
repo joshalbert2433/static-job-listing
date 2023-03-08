@@ -1,4 +1,5 @@
 import React from "react";
+import exitButton from "../assets/images/icon-remove.svg";
 
 function Filter({ setFilteredItems, filteredItems }) {
 	return (
@@ -9,7 +10,7 @@ function Filter({ setFilteredItems, filteredItems }) {
 						<li className="bg-lightGreyishCyanFT flex rounded-md overflow-hidden text-primary font-bold text-lg">
 							<div className="px-2 mt-1">{item}</div>
 							<img
-								src="src\assets\images\icon-remove.svg"
+								src={exitButton}
 								className="bg-primary p-2  cursor-pointer hover:bg-veryDarkGreyishCyan"
 								onClick={() => {
 									const filter = filteredItems.filter(
